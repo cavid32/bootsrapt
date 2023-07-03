@@ -1,0 +1,45 @@
+* {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg-tund-goy {
+    background-color: rgb(44, 62, 80);
+}
+
+.bg-yasil {
+    background-color: rgb(26, 188, 156);
+}
+
+.xett {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+
+.xett.tund {
+    background-color: rgb(44, 62, 80);
+}
+
+.text-tund-goy {
+    color: rgb(44, 62, 80);
+}
+
+.hoverolunan {
+    top:0;
+    position: absolute;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.511);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.col-lg-4:hover .hoverolunan{
+    opacity: 1;
+    visibility: visible;
+}
