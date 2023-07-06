@@ -48,12 +48,18 @@
     width: 90px;
     height: 60px;
 }
+.social-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
 .bg-boz{
     background-color: #2C3E50;
 }
-.twitter{
-    background-color: #2C3E50;
-}
-.navbar{
-    position: fixed;
+
+
+
+.col-4 h4{
+    font-size: 20px;
 }
